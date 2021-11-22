@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #26a69a;
+  background-image:url('https://media-assets-03.thedrum.com/cache/images/thedrum-prod/s3-news-tmp-90538-social-media-mobile-icons-snapchat-facebook-instagram-ss-1920--2x1--940.jpg');
+  background-repeat:repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  min-height: 100%;
+  min-width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+/* Add padding to containers */
+.container {
+  padding: 2px;
+  background-color: white;
+  width: 80%;
+}
+
+/* Full-width input fields */
+input[type=text]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.brand{
+		     background: #703fba !important;
+}
+.brand-text{
+		  color: #703fba !important;
+}
+
+</style>
+</head>
+<body class="grey lighten-4">
+
+<nav class="white z-depth-0">
+<div class="brand-logo brand-text" style="font-family: Candara; margin-left: 15px;" ><b>HATE SPEECH COMMENT CLASSIFICATION</b></div>
+<ul id="nav-mobile" class="right hide-on-small-and-down">
+ <li><a href="/" class="btn brand z-depth-0">Home</a></li>
+ <li><a href="/about.html" class="btn brand z-depth-0">About the project</a></li>
+ <li><a href="/index1.html" class="btn brand z-depth-0">Make predictions</a></li>
+</ul>	
+</nav>
+<div class="container"  align="justified" style="margin-top: 50px; background: rgba(255, 255, 255, 1);">
+<pre style="color:black; font-family: Century Gothic; font-size: 16px; opacity: 1; margin-left: 10px; margin-right: 10px;">
+<h5><b>PROJECT DESCRIPTION:</b></h5>
+Nowadays, social networks sometimes have become a place for threats, insults, and other components of cyberbullying. 
+A huge number of people are involved in online social networks. Hence, the protection of network users from anti 
+social behavior is an important activity. One of the major tasks of such activity is automated detection of the
+hate speech comments. 
+
+Hate speech comments are textual comments with threats, insults, obscene, racism, etc. In recent years there have 
+been many cases in which authorities arrested some users  of social sites because of the negative (abusive) content
+of their personal pages.
+</pre>
+</div>
+<div class="container" align="justified" style="margin-top: 50px; background: rgba(255, 255, 255, 1);">
+<pre style="color:black; font-family: Century Gothic; font-size: 16px; opacity: 1; margin-left: 10px; margin-right: 10px;">
+<h5><b>SOLUTION:</b></h5>
+We are proposing a solution in which various techniques are used for human-free detection of the hate speech comments. 
+Bag of words statistics and bag of symbols statistics are the typical source of information for the hate speech
+comments detection. Usually, the following statistics-based features are used: length of the comment, number of 
+capital letters, number of exclamation marks, number of question marks, number of spelling errors, number of tokens
+with non-alphabetic symbols, number of abusive, aggressive, and threatening words in the comment, etc. A neural network 
+model is used to classify the comments.
+
+We have developed a Recurrent Neural Network(RNN) model for this. The accuracy we have achieved is 55%. 
+To check the working of our model click on the "Prediction" button in the navigation bar.
+</pre>
+</div>
+<div class="container"  align="justified" style="margin-top: 50px; background: rgba(255, 255, 255, 1);">
+<pre style="color:black; font-family: Century Gothic; font-size: 16px; opacity: 1; margin-left: 10px; margin-right: 10px;">
+<b>Project developed by:</b>
+FARAND AUSTEN MAHESA
+<b>Program:</b>
+FULL BOOTCAMP DATA SCIENCE
